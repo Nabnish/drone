@@ -1,0 +1,10 @@
+Scenario,Planner,Planning Time (ms),Replanning Time (ms),Path Length,Min Clearance,Avg Clearance,Nodes Expanded,Collision Count
+open_field,Plain A*,3.021,1.353,42.53,1.0,3.742,285,0
+open_field,ARIS-Lite,5.239,1.394,47.46,2.828,4.525,332,0
+open_field,Incremental ARIS,2.862,1.123,47.46,2.828,5.231,263,0
+narrow_corridor,Plain A*,0.267,0.345,28.83,1.0,5.652,69,0
+narrow_corridor,ARIS-Lite,4.392,1.251,36.28,1.414,6.661,337,0
+narrow_corridor,Incremental ARIS,3.362,0.793,36.28,1.414,6.625,318,0
+dead_end_maze,Plain A*,3.931,1.046,52.87,1.0,2.158,524,0
+dead_end_maze,ARIS-Lite,9.02,3.036,56.38,1.414,3.753,658,0
+dead_end_maze,Incremental ARIS,8.625,1.487,56.38,1.414,4.907,560,0
